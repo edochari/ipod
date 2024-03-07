@@ -1,0 +1,61 @@
+.menubarcontainer
+{
+    height:170px;
+    width:230px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menubar{
+    height:140px;
+    width:140px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:30px;
+}
+.menutext{
+    position:relative;
+    right:-45px;
+    cursor:pointer;
+}
+.forwardicon{
+    height:20px;
+    width:20px;
+    position:relative;
+    right:-105px;
+    top:10px;
+    cursor:pointer;
+   
+
+}
+.backwardicon{
+    height:20px;
+    width:20px;
+    position:relative;
+    right:5px;
+    top:10px;
+    cursor:pointer;
+   
+
+}
+.playicon{
+    height:20px;
+    width:20px;
+    position:relative;
+    right:-20px;
+    top:50px;
+    cursor:pointer;
+   
+
+}
+.menubtn{
+    height:40px;
+    width:40px;
+    background-color: lightgray;
+    border-radius:50%;
+    position:relative;
+    left:-90px;
+    border:0;
+    
+}

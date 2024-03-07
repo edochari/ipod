@@ -1,0 +1,33 @@
+.displaycontainer{
+    height:220px;
+    width:270px;
+  
+    border-radius:10%;
+    margin-top: 5px;
+    background-image: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg");
+    background-position: center;
+}
+.display{
+    height:220px;
+    width:150px;
+    background-color: white;
+    border-radius:10% 0 0 10%;
+    position:absolute;
+
+}
+.displaylist{
+    list-style: none;
+    margin:0;
+    position:absolute;
+    left:-25px;
+}
+.displaylistitem{
+    padding: 5px;
+    cursor:pointer;
+    font-size: larger;
+    font-weight: 600;
+}
+ul li:hover{
+    width:120px;
+    background-color: lightblue;
+}

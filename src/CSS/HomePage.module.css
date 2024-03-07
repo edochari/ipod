@@ -1,0 +1,20 @@
+.homepagecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+
+}
+
+.homepage{
+    background-color: lightgrey;
+    height:400px;
+    width:300px;
+    border-radius: 12%;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
